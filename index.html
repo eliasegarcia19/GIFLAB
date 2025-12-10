@@ -4,17 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GIFLAB</title>
+
     <script src="main.js" defer></script>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <div id="giflabimages"></div>
 
-    <form id="search-form">
-      <input type="text" id="search-input" placeholder="Search for GIFs" />
-      <button type="submit" id="buttonSearch">Search</button>
-    </form>
+    <link 
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+      crossorigin="anonymous">
+  </head>
+
+  <body>
+    <header>GIFLAB</header>
+
+    <div class="container mt-4">
+      <form id="search-form" class="d-flex gap-2">
+        <input 
+          type="text" 
+          id="search-input" 
+          class="form-control" 
+          placeholder="Search for GIFs"
+        />
+        <button type="submit" id="buttonSearch" class="btn btn-primary">
+          Search
+        </button>
+      </form>
+    </div>
+
+    <div class="container mt-4">
+      <div id="gif-container" class="row g-3"></div>
+    </div>
+
     <footer>2025 Elias Garcia</footer>
   </body>
 </html>
+
