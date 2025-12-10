@@ -18,24 +18,23 @@
   <body>
     <header>GIFLAB</header>
 
-    <div class="container mt-4">
-      <form id="search-form" class="d-flex gap-2">
-        <input 
-          type="text" 
-          id="search-input" 
-          class="form-control" 
-          placeholder="Search for GIFs"
-        />
-        <button type="submit" id="buttonSearch" class="btn btn-primary">
-          Search
-        </button>
-      </form>
-    </div>
-
+   <div class="container mt-4 d-flex justify-content-center">
+  <form id="search-form" class="d-flex gap-2 w-auto">
+    <input 
+      type="text" 
+      id="search-input" 
+      class="form-control" 
+      placeholder="Search for GIFs"
+      style="min-width: 150px; max-width: 400px;"
+    />
+    <button type="submit" id="buttonSearch" class="btn btn-primary">
+      Search
+    </button>
+  </form>
+</div>
     <div class="container mt-4">
       <div id="gif-container" class="row g-3"></div>
     </div>
-
     <footer>2025 Elias Garcia</footer>
   </body>
 </html>
