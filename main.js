@@ -34,7 +34,7 @@ document.getElementById("search-form").addEventListener("submit", async function
 
   const searchTerm = document.getElementById("search-input").value;
   const apiKey = 'lH0ENCrqxWHFagXo62tB9FAuQ00meIHc';
-  const apiURL = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${searchTerm}&limit=25&offset=0&rating=g&lang=en`;
+  const apiURL = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${searchTerm}&limit=28&offset=0&rating=g&lang=en`;
   fetchData(apiURL);
 });
 
