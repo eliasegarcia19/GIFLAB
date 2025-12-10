@@ -14,7 +14,7 @@ async function fetchData(apiURL) {
         <div class="card h-100 shadow-sm">
           <img src="${gif.images.fixed_height.url}" class="card-img-center" alt="GIF">
           <div class="card-body">
-            <p class="card-text text-bottom">${gif.title || "Untitled GIF"}</p>
+            <p class="card-text text-center text-truncate">${gif.title || "Untitled GIF"}</p>
           </div>
         </div>
       `;
