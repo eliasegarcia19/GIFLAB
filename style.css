@@ -1,15 +1,22 @@
+html,
+body {
+    background-color: #5798a2;
+
 header {
     text-align: center;
-    padding: 20px;
-    background-color: #f8f9fa;
-    margin-bottom: 20px;
+    background-color:#5798a2;
+    
 }
 
 footer {
     text-align: center;
-    margin-top: 20px;
+    background-color:#5798a2;
+    padding: 10px;
     font-size: 14px;
-    color: #888;
+    color: #0f0101e5;
+}
+.navbar .container-fluid {
+    background-color:#5798a2;
 }
 .card-img-center {
     display: block;
@@ -19,4 +26,10 @@ footer {
     max-width: 100%;
     min-height: 80%;
     max-height: 80%;
+}
+.search-box {
+    background-color: #5798a2;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
 }
