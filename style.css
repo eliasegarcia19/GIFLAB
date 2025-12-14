@@ -49,3 +49,8 @@ nav {
     height: 110px;
     width: 200px;
 }
+.navbar-nav .nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
