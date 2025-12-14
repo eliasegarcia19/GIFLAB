@@ -14,7 +14,8 @@
 * **API**
 ## User Stories
 * As a user, I want to find a search box when I visit the website. This will give me an immediate visual impression with ability to type in a word or phrase. Once the search button is clicked, a clean layout of gifs will appear.
-* As a user, I want to right click on a gif results in order to copy the gif.
+* As a user, I want to right click and copy image on a gif results in order to copy the gif.
+* As a user, I want to scroll down the gif container results page to view more images.
 ## Wireframes
 ## Home Page - Desktop Version
 ![Wireframe Preview](./images/GL%20Home%20page%20WireFrameGL.png)
